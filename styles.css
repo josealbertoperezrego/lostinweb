@@ -1,14 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
-*,
-*::before,
-*::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-
 body {
     margin: 0 auto;
     width: auto;
@@ -16,10 +7,17 @@ body {
     flex-direction: column;
     padding: 35px;
 }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
 
 .segundabarra {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .firstbar{
@@ -93,27 +91,35 @@ nav ul li a{
 .search-bar input {
     border: none;
 }
-.background-bar {
+.fondo {
     background-color: rgba(255, 0, 0, 0);
     width: 100%;
 }
-.search-button {
+.search {
     border: none;
     background-color: red;
     color: #F2F2F2;
     padding: 4px 15px;
-    cursor: pointer;
 }
-.login-button,
-.join-button {
+.login {
     text-decoration: none;
     color: grey;
     font-size: 10px;
+
 }
-.join-button {
+
+.join{
+    text-decoration: none;
+    color: grey;
+    font-size: 10px;
     border: grey solid 1px;
     padding: 6px 12px;
 }
+
+.login-button{
+    text-decoration: none;
+}
+
 .buscador {
     justify-content: space-between;
     flex-wrap: wrap;
@@ -127,28 +133,21 @@ nav ul li a{
     width: 100%;
     text-align: center;
     justify-content: center;
-    padding: 10%;
-}
-h1 {
-    font-size: 40px;
-    font-weight: 500;
+    padding: 25%;
 }
 .primerabarra article {
     padding-top: 30px;
     font-size: 18px;
 }
-.buttons-action {
+.buttonwork {
     margin-top: 40px;
     text-align: center;
     justify-content: center;
     align-items: center;
     gap: 50px;
-
-}
-.buttons-action a {
     text-decoration: none;
-}
 
+}
 
 .info-section {
     margin-top: 20px;
@@ -160,13 +159,18 @@ h1 {
     margin: 50px;
     width: 15%;
 }
+h1 {
+    font-size: 45px;
+    font-weight: 500;
+}
 h2 {
     font-size: 20px;
     font-weight: 400;
 }
 .background-h2 {
-    background-color: var(--quaternary-color);
+    background-color: #F2F2F2;
     width: 50%;
+    align-items: center;
 }
 .textocentro article {
     font-size: 10px;
@@ -176,27 +180,15 @@ h2 {
     font-size: 15px;
     color: red;
     font-weight: 600;
-}
-.iconosfinales article p{
-    font-size: 10px;
-    color: #000000;
-    font-weight: 500;}
-
-.iconosfinales article img {
     width: 30px;
 }
 
-.botonfinal {
-    margin: 0 auto;
-    margin-top: 50px;
-    background-color: #000000;
-    color: #FFFFFF;
-    width: 25%;
-    height: 30px;
+.iconosfinales article img {
+    width: 80px;
 }
 
 .iconosfinales {
     justify-content: space-evenly;
     text-align: left;
-    margin-top: 50px;
+    margin-top: 86px;
 }
