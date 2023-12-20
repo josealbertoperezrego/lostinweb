@@ -64,13 +64,13 @@ nav ul {
     align-items: center;
     text-align: center;
     justify-content: space-around;
-    gap: 15px;
+    gap: 22px;
 }
 
 
 nav ul li {
     list-style: none;
-    font-weight: bold;
+    font-weight: normal;
 }
 nav ul li a{
     display: flex;
@@ -80,7 +80,7 @@ nav ul li a{
     text-align: center;
     color: black;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .search-bar {
@@ -120,22 +120,22 @@ nav ul li a{
     align-items: center;
     margin-top: 10px;
 }
-.hero-section {
-    background-color: #F8F4F4;
+.primerabarra {
+    background-color: white;
     margin-top: 10px;
     height: 100%;
     width: 100%;
     text-align: center;
     justify-content: center;
-    padding: 5%;
+    padding: 10%;
 }
 h1 {
     font-size: 40px;
     font-weight: 500;
 }
-.hero-section article {
+.primerabarra article {
     padding-top: 30px;
-    font-size: 10px;
+    font-size: 18px;
 }
 .buttons-action {
     margin-top: 40px;
@@ -168,29 +168,21 @@ h2 {
     background-color: var(--quaternary-color);
     width: 50%;
 }
-.info-section article {
+.textocentro article {
     font-size: 10px;
     margin-top: 20px;
 }
-
-
-.card-section {
-    justify-content: space-evenly;
-    text-align: left;
-    margin-top: 50px;
-    flex-wrap: wrap;
-}
-.card-section article h3{
+.iconosfinales article h3{
     font-size: 15px;
     color: red;
-    font-weight: 500;
+    font-weight: 600;
 }
-.card-section article p{
+.iconosfinales article p{
     font-size: 10px;
     color: #000000;
     font-weight: 500;}
 
-.card-section article img {
+.iconosfinales article img {
     width: 30px;
 }
 
@@ -201,8 +193,10 @@ h2 {
     color: #FFFFFF;
     width: 25%;
     height: 30px;
-    cursor: pointer;
 }
-.sombra {
-    box-shadow: 8px 8px 0 rgba(240, 50, 65, .1);
+
+.iconosfinales {
+    justify-content: space-evenly;
+    text-align: left;
+    margin-top: 50px;
 }
